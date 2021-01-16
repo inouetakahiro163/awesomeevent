@@ -5,6 +5,8 @@ ruby '2.6.3'
 
 gem 'hamlit-rails', '~> 0.2.3'
 
+gem 'rails-i18n', '~> 6.0.0'
+
 # githubアカウントを使ったユーザ認証の設定
 gem 'omniauth', '~> 1.9.1'
 
