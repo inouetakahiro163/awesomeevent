@@ -8,6 +8,8 @@ class EventsController < ApplicationController
 
     if @event.save
       redirect_to @event, notice: "作成しました"
+    else
+      render new_event_path
     end
   end
 
